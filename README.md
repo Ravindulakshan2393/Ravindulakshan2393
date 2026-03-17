@@ -17,8 +17,6 @@
 <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px"><br>
 
 
-- 🌱 I’m currently learning **Dart** <br>
-
 - 📫 How to reach me **lakshanravindu2393@gmail.com** <br>
 
 ---
