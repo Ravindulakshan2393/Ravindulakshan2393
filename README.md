@@ -3,7 +3,7 @@
 
 <p align="center">
   <em>
-    Hello, I am Ravindu Lakshan a <b>First year</b> undergraduate from <a href="https://uom.lk/"> <b>University Of Moratuwa</b>, Sri-Lanka (" Wisdom is all wealth ")</a>. <br>
+    Hello, I am Ravindu Lakshan a <b>Second year</b> undergraduate from <a href="https://uom.lk/"> <b>University Of Moratuwa</b>, Sri-Lanka (" Wisdom is all wealth ")</a>. <br>
      
   </em> 
   <br><h2 align="center">
