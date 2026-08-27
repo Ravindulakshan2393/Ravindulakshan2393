@@ -16,7 +16,7 @@
 
 <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px"><br>
 
-- 📫 How to reach me **lakshanravindu2393@gmail.com** <br>
+- 📫 How to reach me **pererawslr@gmail.com** <br>
 
 ---
 
