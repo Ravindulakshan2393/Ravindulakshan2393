@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="100" viewBox="0 0 900 100" role="img" aria-label="footer">
+  <title>footer</title>
+  <defs>
+    <linearGradient id="fgrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <clipPath id="fwaveclip">
+      <path d="M0,65 C150,15 350,95 450,50 C550,5 750,85 900,65 L900,100 L0,100 Z"/>
+    </clipPath>
+  </defs>
+  <!-- Gradient background clipped to wave shape -->
+  <rect width="900" height="100" fill="url(#fgrad)" clip-path="url(#fwaveclip)"/>
+</svg>

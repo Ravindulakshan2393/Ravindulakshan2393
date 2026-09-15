@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" role="img" aria-label="Sadeepa Lakshan">
+  <title>Sadeepa Lakshan</title>
+  <defs>
+    <linearGradient id="hgrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <clipPath id="waveclip">
+      <path d="M0,0 L900,0 L900,135 C750,185 550,105 450,150 C350,195 150,115 0,135 Z"/>
+    </clipPath>
+    <style>
+      @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+      .title { animation: fadeIn 0.8s ease-in-out forwards; }
+      .sub   { animation: fadeIn 1.2s ease-in-out forwards; opacity: 0; }
+    </style>
+  </defs>
+  <!-- Gradient background clipped to wave shape -->
+  <rect width="900" height="200" fill="url(#hgrad)" clip-path="url(#waveclip)"/>
+  <!-- Title -->
+  <text class="title" x="450" y="80" text-anchor="middle"
+        font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif"
+        font-size="48" font-weight="600" fill="#58a6ff">Sadeepa Lakshan</text>
+  <!-- Subtitle -->
+  <text class="sub" x="450" y="115" text-anchor="middle"
+        font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif"
+        font-size="17" fill="#8b949e">BSc (Hons) IT &amp; Management Undergraduate | Aspiring Software Engineer</text>
+</svg>

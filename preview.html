@@ -1,4 +1,55 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Profile README Local Preview</title>
+  <!-- GitHub Markdown Dark CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown-dark.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: 900px;
+      width: 100%;
+      background-color: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      padding: 32px;
+    }
+    .badge-bar {
+      background: #161b22;
+      padding: 10px 16px;
+      border-radius: 6px 6px 0 0;
+      border-bottom: 1px solid #30363d;
+      font-size: 14px;
+      font-weight: 600;
+      color: #58a6ff;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge-bar">
+      <span>🖥️ GitHub Profile README Local Preview</span>
+      <span>Ravindulakshan2393 / README.md</span>
+    </div>
+    <article id="content" class="markdown-body"></article>
+  </div>
+
+  <script>
+    const markdownContent = `<div align="center">
 
 <img src="./assets/header.svg" width="100%" alt="header"/>
 
@@ -14,14 +65,14 @@
 
 ## ⚡ About Me
 
-```yaml
+\`\`\`yaml
 name        : Sadeepa Lakshan
 degree      : BSc. (Hons) Information Technology & Management [Undergraduate @ University of Moratuwa]
 interests   : Software Engineering ⚡ Full-Stack Web Development ⚡ Database Systems ⚡ IoT
 goal        : Secure a Software Development Internship & build impactful software solutions
 status      : Seeking internship opportunities & open to technical collaborations 🚀
 quote       : "Life is full of choices… choose wisely!"
-```
+\`\`\`
 
 ---
 
@@ -114,4 +165,9 @@ quote       : "Life is full of choices… choose wisely!"
 <br/><br/>
 <img src="./assets/footer.svg" width="100%" alt="footer"/>
 
-</div>
+</div>`;
+
+    document.getElementById('content').innerHTML = marked.parse(markdownContent);
+  </script>
+</body>
+</html>
