@@ -78,7 +78,13 @@ quote       : "Life is full of choices… choose wisely!"
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=Ravindulakshan2393&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="100%" />
+  <img height="170" src="https://github-readme-stats-fast.vercel.app/api?username=Ravindulakshan2393&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  &nbsp;
+  <img height="170" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Ravindulakshan2393&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+
+  <br/><br/>
+
+  <img src="https://github-profile-trophies.vercel.app/?username=Ravindulakshan2393&theme=tokyonight&no-frame=true" alt="GitHub Trophies" width="100%" />
 
 </div>
 
